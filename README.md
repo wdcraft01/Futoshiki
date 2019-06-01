@@ -11,7 +11,7 @@ that indicate the smallest number of certain pairs."
 Some typical Futoshiki puzzles as presented in Moore's (2012) puzzle book
 look like this:
 
-![Futoshiki Examples](resource/Futoshiki_Examples_Unsolved.png)
+![Futoshiki Examples](src/resource/Futoshiki_Examples_Unsolved.png)
 
 That image above shows a scanned image of pg 24 with 4 different,
 unsolved 7 x 7 puzzles. The goal is to fill the remaining squares so
@@ -28,7 +28,7 @@ some smaller, handwritten "mark-up" notation to indicate that the
 possibilities have been narrowed down to some useful subset of the
 possible values 1, 2, ..., 7.
 
-![Futoshiki Example](resource/Futoshiki_Examples_PartlySolved89.png)
+![Futoshiki Example](src/resource/Futoshiki_Examples_PartlySolved89.png)
 
 ## Getting Started ##
 
