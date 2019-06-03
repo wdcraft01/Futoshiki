@@ -1,4 +1,4 @@
-package sample;
+package Futoshiki;
 
 public class Controller {
 }

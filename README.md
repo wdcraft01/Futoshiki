@@ -79,8 +79,18 @@ Some acknowledgments here.
 # Some Development Notes #
 
 <b>Sat 06/01/2019</b>
-Establishing an initial local and remote repository, including this
-README document.
+Established an initial local and remote repository, including this
+README document. Texted briefly with Tyler (thf) and added him as
+collaborator on GitHub.
+
+<b>Sun 06/02/2019</b>
+Experimented with JavaFX TextFields to produce an user-editable text
+field that can be constrained to specific integer values. Managed to
+create a TextField constrained to empty string or single-digit integers
+from 1 to *n*, centered in the text box. Next step will be to encapsulate
+the effect into a separate class extending the TextField class and
+taking as arguments a value for the maximum int *n*.
+
 
 # Design & Design Issues #
 
