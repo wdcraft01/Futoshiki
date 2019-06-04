@@ -143,13 +143,27 @@ public class Main extends Application {
         // exampleTextField03.setMaxWidth(100);
         exampleTextField03.setAlignment(Pos.CENTER);
 
+        // Let's try a 2D array of TextField objects
+        TextField arrayOfTextFields[][] = new TextField[7][7];
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 7; j++) {
+                arrayOfTextFields[i][j] = new TextField(i+""+j);
+                TextField tempTextField = arrayOfTextFields[i][j];
+                tempTextField.setAlignment(Pos.CENTER);
+                tempTextField.setPrefHeight(50);
+                tempTextField.setPrefWidth(50);
+                tempTextField.setMinWidth(50);
+                tempTextField.setMinHeight(50);
+            }
+        }
+
 
         // A label for testing
         Label exampleLabel = new Label("Info Here");
 
         hBoxForCenter.getChildren().addAll(
             exampleTextField01, exampleTextField02, exampleTextField03,
-            exampleLabel);
+            arrayOfTextFields[0][0], exampleLabel);
 
         // Put the BorderPane together
         theBorderPane.setTop(hBoxForTop);
